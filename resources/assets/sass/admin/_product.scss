@@ -1,0 +1,71 @@
+.div-product{
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    table{
+        tbody{
+
+            td{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.div-product-add{
+
+    form{
+        //padding: 10px 5px;
+        border: 1px solid lightgrey;
+        overflow: hidden;
+
+        .sel-div {
+            padding: 10px 15px;
+
+            select{
+                margin-bottom: 10px;
+            }
+        }
+
+        .add-product{
+            padding: 10px 15px;
+            border-left: 1px solid lightgrey;
+
+            textarea{
+                width: 100%;
+                resize: none;
+            }
+        }
+    }
+}
+
+.div-product-edit{
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.div-product-image{
+    img{
+        height: 200px;
+        width: 20%;
+        margin-right: -19px;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        position: relative;
+        top: -90px;
+        color: red;
+
+    }
+
+    form{
+        margin-top: 20px;
+    }
+}

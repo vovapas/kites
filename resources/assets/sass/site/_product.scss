@@ -1,0 +1,147 @@
+.product-div{
+
+    .item-div{
+        margin-bottom: 10px;
+        text-align: center;
+        overflow: hidden;
+
+        a{
+            display: block;
+            color: black;
+            text-decoration: none;
+        };
+
+        span{
+            border-bottom: 1px dashed black;
+        }
+
+        .image-align{
+            //width: 150px;
+            height: 250px;
+            overflow: hidden;
+            line-height: 250px;
+            text-align: center;
+
+            img{
+                width: 100%;
+                //height: 250px;
+                max-height: 250px;
+                //max-width: 150px;
+                vertical-align: middle;
+            }
+        }
+
+        p{
+            margin-top: 10px;
+            height: 40px;
+            color: #5BC0DE;
+        }
+    }
+
+}
+
+.product-show-div{
+    img{
+        width: 100%;
+    }
+
+    .name-product{
+
+        span{
+            font-size: 30px;
+            line-height: normal;
+        }
+    }
+
+    .price-product{
+        padding: 20px 0;
+
+        span{
+            color: red;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        a{
+            margin-left: 20px;
+        }
+    }
+
+    .about-product{
+        font-weight: 300;
+    }
+
+    .season-product{
+        margin-top: 30px;
+        font-size: 20px;
+
+        span{
+            border-bottom: 1px dashed black;
+        }
+    }
+
+    .size-product{
+        margin-top: 30px;
+    }
+
+    .carousel-tab .active{
+        color:red;
+        background: white;
+        border: 1px solid #5BC0DE;
+    }
+
+    .carousel-tab{
+        overflow: hidden;
+    }
+
+    .carousel-tab li{
+        float: left;
+        cursor: pointer;
+        border: 1px solid #eee;
+        background: #F6F6F6;
+        width: 20%;
+        margin-top: 10px;
+
+        img{
+            height: 100px;
+        }
+    }
+
+    .carousel{
+        //width: 455px;
+        //height: 230px;
+
+        .item{
+            //img{
+            //    height: 500px;
+            //}
+            .image-align{
+                //width: 150px;
+                height: 500px;
+                overflow: hidden;
+                line-height: 500px;
+                text-align: center;
+
+                img{
+                    width: 100%;
+                    //height: 250px;
+                    max-height: 500px;
+                    //max-width: 150px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+    .carousel-control{
+        width: 50px;
+        height: 500px;
+    }
+
+    .carousel-control.left, .carousel-control.right{
+        background-image: none;
+    }
+
+    .carousel-control.left:hover, .carousel-control.right:hover{
+        background: rgba(0,0,0,0.4);
+    }
+}

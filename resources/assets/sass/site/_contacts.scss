@@ -1,0 +1,27 @@
+.contacts-div{
+
+    .contact{
+        font-size: 20px;
+
+        i{
+            width: 50px;
+            text-align: center;
+            position: relative;
+            top: 3px;
+        }
+
+        .fa-skype{
+            color: #00AFF0;
+        }
+
+        .fa-whatsapp{
+            color: #0DC143;
+        }
+    }
+
+    .text{
+        font-size: 20px;
+        font-weight: 300;
+        color: grey;
+    }
+}

@@ -1,0 +1,33 @@
+.div-places{
+    margin-top: 50px;
+
+    .places{
+        background: #F5F5F5;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        margin-bottom: 25px;
+
+        .name{
+            font-size: 35px;
+            font-weight: 500;
+        }
+
+        .div-img{
+            margin-top: 20px;
+        }
+
+        img{
+            width: 100%;
+            border: 1px solid lightgrey;
+            padding: 5px;
+            background: white;
+        }
+
+        .param-places{
+            float: right;
+            font-weight: 600;
+        }
+    }
+}

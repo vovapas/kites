@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.navbar {
+	height: 55px;
+	padding-top: 5px;
+	background: none repeat scroll 0 0 #45C2E8;
+
+	a{
+		color:white;
+
+		&:hover, &:focus{
+			color: #333;
+		}
+	}
+}
+
+.header-panel{
+	overflow: hidden;
+	background-color: #f6f6f6;
+	color: #333;
+	margin: -20px -20px 0px -20px;
+	padding: 20px 15px 0 20px;
+	height: 70px;
+	width: 1120px;
+	position: fixed;
+	border-bottom: 4px solid #e6e6e6;
+	border-bottom: 4px solid #5AC8FA;
+	z-index: 100;
+
+	h3{
+		margin: 0 0 15px 0;
+		line-height: 30px;
+		float: left;
+	}
+}
+
+.container{
+	width: 1150px !important;
+}
+
+section{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	background-color: white;
+	overflow: hidden;
+	min-height: 800px;
+}
+
+.content{
+	margin-top:65px;
+	min-height: 400px;
+}
+
+
+.well{
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.form-group-inline{
+	margin-top: 30px;
+}
+
+.form-control{
+	border-radius: 0;
+}
+
+.list-common{
+	clear: both;
+
+	li{
+		border-bottom: 1px silver solid;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		overflow: hidden;
+
+		a:hover{
+			text-decoration: none;
+		}
+
+		img{
+			float:left;
+			margin-right: 10px;
+		}
+	}
+}
+
+.table-common{
+	thead{
+		td{
+			font-size: 18px;
+			vertical-align: middle;
+		}
+	}
+}
+
+.category-translate{
+	li{
+		border-bottom: dotted silver 1px;
+		margin-bottom: 4px;
+
+		&:last-child{
+
+		}
+	}
+}
+
+.tab-content{
+	padding: 12px 0;
+	border: 1px solid #ddd;
+	border-top: 0;
+	overflow: hidden;
+}
+
+.dropdown-menu li a{
+	padding: 5px 20px;
+}
+
+.input-group-component{
+	.input-group-addon{
+		min-width: 38px;
+
+	}
+
+	margin-bottom: 5px;
+}
+
+.btn-delete-component{
+	font-size: 25px;
+
+	i{
+		color:orangered !important;
+	}
+}
+
+.btn-save-component{
+	border: 0;
+	background: none;
+	font-size: 25px;
+	color:#286090;
+}
+
+.component-header{
+	border-bottom: 3px solid #e3e3e3;
+	overflow: hidden;
+	font-size: 17px;
+	padding-bottom: 5px;
+}
+
+.component-row{
+	border-bottom: 1px solid #e3e3e3;
+	padding: 10px 0;
+	&:last-child{
+		border-bottom: 0;
+	}
+}
+
+.list-variant{
+	margin-top: 8px;
+	li{
+		margin-bottom: 15px;
+		border-bottom: 1px silver solid;
+		overflow: hidden;
+		padding-bottom: 7px;
+	}
+}
+
+.btn-variant{
+
+}

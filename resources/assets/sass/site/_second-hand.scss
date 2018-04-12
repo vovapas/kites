@@ -1,0 +1,66 @@
+.second-hand-div{
+
+    span{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    ul{
+        margin-top: 10px;
+        border: 1px solid lightgrey;
+
+        li{
+            overflow: hidden;
+            border-bottom: 1px solid lightgrey;
+            &:last-child{
+                border-bottom: none;
+            }
+
+            .lost-height{
+                height: 200px;
+            }
+
+            .lost-img{
+                lost-column: 2/12;
+
+                img{
+                    height: 200px;
+                    width: 100%;
+                    cursor:pointer;
+                }
+            }
+
+            .lost-product{
+                lost-column: 5/12;
+                lost-align: middle-left;
+            }
+
+            .lost-price{
+                lost-column: 2/12;
+                lost-align: center;
+                text-align: center;
+            }
+
+            .lost-user{
+                lost-column: 3/12;
+                lost-align: middle-left;
+            }
+        }
+    }
+
+    .bs-example-modal-lg{
+        margin-top: 100px;
+    }
+
+    form{
+        padding: 10px 20px;
+        overflow: hidden;
+
+        textarea{
+            width: 100%;
+            resize: none;
+        }
+    }
+
+
+}
