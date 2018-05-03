@@ -95,7 +95,7 @@ gulp.task('scripts-admin', function() {
 
 gulp.task('watch', ['styles', 'styles-admin', 'scripts', 'scripts-admin'], function () {
     browserSync.init({
-        proxy: 'kites.kz.dev'
+        proxy: 'kites.test'
     });
     gulp.watch('./resources/assets/sass/site/**/*.scss', ['styles']);
     gulp.watch('./resources/assets/sass/admin/**/*.scss', ['styles-admin']);

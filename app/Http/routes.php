@@ -2,6 +2,7 @@
 
 use App\Model\Category;
 use Baum\Node;
+use App\Model\User;
 
 /*
  |--------------------------------------------------------------------------
@@ -83,5 +84,8 @@ Route::group(['prefix'=>'admin', 'middleware' => 'auth.admin'], function() {
 });
 
 Route::get('test', function(){
-
+User::create([
+            'name' => 'vova',
+            'email' => 'vova.pas@mail.ru',
+            'password' => bcrypt('admin')]);
 });
